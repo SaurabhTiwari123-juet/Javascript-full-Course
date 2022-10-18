@@ -89,3 +89,17 @@ console.log(friends);
 
 const years = new Array(1991, 1992, 1993);
 // we can pass expressions in arrays as well
+
+// unshift method is used to add elements in the
+// starting of the array
+
+friends.push("raj");
+friends.unshift("ram");
+
+// objects
+const saurabh = {
+  firstname: "saurabh",
+  lastname: "tiwari",
+  age: 22,
+  occupation: "student",
+};
