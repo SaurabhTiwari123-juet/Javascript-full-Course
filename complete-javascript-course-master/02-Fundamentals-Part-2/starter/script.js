@@ -21,14 +21,21 @@ logger();
 
 logger();
 
+function cutfruitpieces(fruit) {
+  return fruit * 4;
+}
+
 function fruitprocerssor(apples, oranges) {
+  const applepieces = cutfruitpieces(apples);
+  const orangepieces = cutfruitpieces(oranges);
+
   console.log(apples, oranges);
 
-  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  const juice = `Juice with ${applepieces} apples pieces and ${orangepieces} orange pieces.`;
   return juice;
 }
 // parameter are placeholders inn functions
-fruitprocerssor(5, 0); // arguments or actual parameters
+console.log(fruitprocerssor(5, 0)); // arguments or actual parameters
 
 const applejuice = fruitprocerssor(5, 0);
 
