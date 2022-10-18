@@ -53,3 +53,13 @@ console.log(age1, age2);
 // but cant do the same in a function expression
 
 // arrow functions
+
+const calcage3 = (birthyear) => 2022 - birthyear;
+const age3 = calcage3(1999);
+console.log(age3);
+
+const yearuntilretirement = (birthyear, firstname) => {
+  const age = 2022 - birthyear;
+  const retirement = 65 - age;
+  return retirement;
+};
