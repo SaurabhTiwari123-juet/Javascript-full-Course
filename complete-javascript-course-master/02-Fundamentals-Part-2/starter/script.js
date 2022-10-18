@@ -73,3 +73,19 @@ const yearuntilretirement = (birthyear, firstname) => {
 };
 
 // new 1
+
+// coding  question 1
+
+const calcavg = (a, b, c) => (a + b + c) / 3;
+console.log(calcavg(2, 3, 5));
+
+const scoredolphins = calcavg(44, 23, 71);
+const scorekoalas = calcavg(65, 54, 49);
+
+// arrays in js
+
+const friends = ["mike", "peter", "john"];
+console.log(friends);
+
+const years = new Array(1991, 1992, 1993);
+// we can pass expressions in arrays as well
