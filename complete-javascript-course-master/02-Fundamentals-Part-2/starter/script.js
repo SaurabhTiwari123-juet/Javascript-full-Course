@@ -1,4 +1,5 @@
 "use strict";
+// always use to avoid the errors
 // it help us to find errors and makes code useful to run
 // predefined words also cant be used here as a variable
 let hasdriverslicence = false;
