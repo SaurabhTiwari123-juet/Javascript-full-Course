@@ -108,6 +108,7 @@ const saurabh = {
   lastname: "tiwari",
   age: 22,
   occupation: "student",
+  salary: 1000,
 };
 // so objets are often used in js
 // as it helps in
