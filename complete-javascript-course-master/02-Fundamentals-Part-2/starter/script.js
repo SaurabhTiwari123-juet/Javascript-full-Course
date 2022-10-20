@@ -108,4 +108,6 @@ const saurabh = {
   age: 22,
   occupation: "student",
 };
-//
+// so objets are often used in js
+// as it helps in
+// various ways
