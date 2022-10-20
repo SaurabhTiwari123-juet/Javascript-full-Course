@@ -95,7 +95,8 @@ const years = new Array(1991, 1992, 1993);
 
 friends.push("raj");
 friends.unshift("ram");
-
+// shift is used to remove the first element from
+// the array
 // objects in javascript this are used
 // as a key value pairs
 // which are used to
