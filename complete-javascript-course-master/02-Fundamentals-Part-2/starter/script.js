@@ -96,10 +96,16 @@ const years = new Array(1991, 1992, 1993);
 friends.push("raj");
 friends.unshift("ram");
 
-// objects
+// objects in javascript this are used
+// as a key value pairs
+// which are used to
+// store mutltiple things
+// in a single objects
+// as disscussed below
 const saurabh = {
   firstname: "saurabh",
   lastname: "tiwari",
   age: 22,
   occupation: "student",
 };
+//
