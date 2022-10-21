@@ -104,6 +104,11 @@ friends.unshift("ram");
 // store mutltiple things
 // in a single objects
 // as disscussed below
+
+//we can use different types of functions as
+//we want
+// to call a function
+
 const saurabh = {
   firstname: "saurabh",
   lastname: "tiwari",
