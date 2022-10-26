@@ -127,4 +127,4 @@ console.log(saurabh.age);
 console.log(saurabh["firstname"]);
 console.log(saurabh.friendss[0]);
 
-//
+// function inside  objects
