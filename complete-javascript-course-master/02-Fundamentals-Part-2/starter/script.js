@@ -116,8 +116,15 @@ const saurabh = {
   age: 22,
   occupation: "student",
   salary: 1000,
+  friendss: [aman, mahesh, jonas],
 };
 // so objets are often used in js
 // as it helps in
 // various ways
+// dot and bracket notations
+
+console.log(saurabh.age);
+console.log(saurabh["firstname"]);
+console.log(saurabh.friendss[0]);
+
 //
