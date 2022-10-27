@@ -117,7 +117,20 @@ const saurabh = {
   occupation: "student",
   salary: 1000,
   friendss: [aman, mahesh, jonas],
+  hasdriverslicence: true,
+  //here the fuction is as like a
+  // key value pair
+  //
+  calcage: function (birthyear) {
+    console.log(this);
+    return 2022 - this.birthyear;
+  },
+  getsummary: function () {
+    if (this.hasdriverslicence == true) return true;
+  }, // this keyword is the object
+  // calling the method so
 };
+
 // so objets are often used in js
 // as it helps in
 // various ways
@@ -127,4 +140,32 @@ console.log(saurabh.age);
 console.log(saurabh["firstname"]);
 console.log(saurabh.friendss[0]);
 
+// this keyword is the object
+// calling the method so
+
 // function inside  objects
+
+//
+const mark = {
+  fullname: "marksmiller",
+  height: 1.69,
+  mass: 78,
+  calcbmi: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+
+const john = {
+  fullname: "johnsmith",
+  height: 1.95,
+  mass: 92,
+  calcbmi: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  },
+};
+console.log();
+console.log("");
+console.log();
+console.log();
