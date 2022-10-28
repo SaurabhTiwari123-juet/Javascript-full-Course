@@ -169,3 +169,6 @@ console.log();
 console.log("");
 console.log();
 console.log();
+
+//
+//developer tools and dom
