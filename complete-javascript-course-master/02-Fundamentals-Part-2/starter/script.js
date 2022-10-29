@@ -5,6 +5,7 @@
 let hasdriverslicence = false;
 const passtest = true;
 
+//
 if (passtest) hasdriverslicence = true;
 
 if (hasdriverslicence) console.log("i can drive");
@@ -48,7 +49,10 @@ function calcage(birthyear) {
 const age1 = calcage(1999);
 
 console.log(age1);
+//
 
+//
+//
 // fuction expression
 const calcage2 = function (birthyear) {
   return 2022 - birthyear;
