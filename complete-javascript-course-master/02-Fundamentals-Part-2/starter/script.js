@@ -176,3 +176,5 @@ console.log();
 
 //
 //developer tools and dom
+//install npm and vs code extensions
+// debugging
